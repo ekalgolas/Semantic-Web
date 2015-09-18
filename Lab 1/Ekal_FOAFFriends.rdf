@@ -1,0 +1,40 @@
+<rdf:RDF
+      xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+      xmlns:foaf="http://xmlns.com/foaf/0.1/"
+      xmlns:admin="http://webns.net/mvcb/">
+<foaf:PersonalProfileDocument rdf:about="">
+  <foaf:maker rdf:resource="#me"/>
+  <foaf:primaryTopic rdf:resource="#me"/>
+  <admin:generatorAgent rdf:resource="http://www.ldodds.com/foaf/foaf-a-matic"/>
+  <admin:errorReportsTo rdf:resource="mailto:leigh@ldodds.com"/>
+</foaf:PersonalProfileDocument>
+<foaf:Person rdf:ID="me">
+<foaf:name>Ekal Golas</foaf:name>
+<foaf:title>Mr</foaf:title>
+<foaf:givenname>Ekal</foaf:givenname>
+<foaf:family_name>Golas</foaf:family_name>
+<foaf:nick>Ekal</foaf:nick>
+<foaf:mbox rdf:resource="mailto:exg140230@utdallas.edu"/>
+<foaf:homepage rdf:resource="https://www.facebook.com/ekal.golas"/>
+<foaf:depiction rdf:resource="EkalGolas.jpg"/>
+<foaf:phone rdf:resource="tel:469-353-3252"/>
+<foaf:workplaceHomepage rdf:resource="http://amazon.com/"/>
+<foaf:workInfoHomepage rdf:resource="http://utdallas.edu/~exg140230/"/>
+<foaf:schoolHomepage rdf:resource="http://utdallas.edu/"/>
+<foaf:knows>
+<foaf:Person>
+<foaf:name>Ekal Golas</foaf:name>
+<foaf:mbox rdf:resource="mailto:ekalgolas@gmail.com"/>
+<rdfs:seeAlso rdf:resource="http://www.hackathon.io/ekal-golas"/></foaf:Person></foaf:knows>
+<foaf:knows>
+<foaf:Person>
+<foaf:name>Ekal</foaf:name>
+<foaf:mbox rdf:resource="mailto:exg140230@utdallas.edu"/>
+<rdfs:seeAlso rdf:resource="http://www.hackathon.io/ekal-golas"/></foaf:Person></foaf:knows>
+<foaf:knows>
+<foaf:Person>
+<foaf:name>Test</foaf:name>
+<foaf:mbox rdf:resource="mailto:testekal@123.abc"/>
+<rdfs:seeAlso rdf:resource="http://www.hackathon.io/ekal-golas"/></foaf:Person></foaf:knows></foaf:Person>
+</rdf:RDF>

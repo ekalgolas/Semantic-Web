@@ -1,0 +1,62 @@
+<file:///D:/Github/SemanticWeb/Lab%201/Ekal_FOAFFriends.rdf> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/PersonalProfileDocument> .
+<file:///D:/Github/SemanticWeb/Lab%201/Ekal_FOAFFriends.rdf> <http://xmlns.com/foaf/0.1/maker> <file:///D:/Github/SemanticWeb/Lab%201/Ekal_FOAFFriends.rdf#me> .
+<file:///D:/Github/SemanticWeb/Lab%201/Ekal_FOAFFriends.rdf> <http://xmlns.com/foaf/0.1/primaryTopic> <file:///D:/Github/SemanticWeb/Lab%201/Ekal_FOAFFriends.rdf#me> .
+<file:///D:/Github/SemanticWeb/Lab%201/Ekal_FOAFFriends.rdf> <http://webns.net/mvcb/generatorAgent> <http://www.ldodds.com/foaf/foaf-a-matic> .
+<file:///D:/Github/SemanticWeb/Lab%201/Ekal_FOAFFriends.rdf> <http://webns.net/mvcb/errorReportsTo> <mailto:leigh@ldodds.com> .
+<file:///D:/Github/SemanticWeb/Lab%201/Ekal_FOAFFriends.rdf#me> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
+<file:///D:/Github/SemanticWeb/Lab%201/Ekal_FOAFFriends.rdf#me> <http://xmlns.com/foaf/0.1/name> "Ekal Golas" .
+<file:///D:/Github/SemanticWeb/Lab%201/Ekal_FOAFFriends.rdf#me> <http://xmlns.com/foaf/0.1/title> "Mr" .
+<file:///D:/Github/SemanticWeb/Lab%201/Ekal_FOAFFriends.rdf#me> <http://xmlns.com/foaf/0.1/givenname> "Ekal" .
+<file:///D:/Github/SemanticWeb/Lab%201/Ekal_FOAFFriends.rdf#me> <http://xmlns.com/foaf/0.1/family_name> "Golas" .
+<file:///D:/Github/SemanticWeb/Lab%201/Ekal_FOAFFriends.rdf#me> <http://xmlns.com/foaf/0.1/nick> "Ekal" .
+<file:///D:/Github/SemanticWeb/Lab%201/Ekal_FOAFFriends.rdf#me> <http://xmlns.com/foaf/0.1/mbox> <mailto:exg140230@utdallas.edu> .
+<file:///D:/Github/SemanticWeb/Lab%201/Ekal_FOAFFriends.rdf#me> <http://xmlns.com/foaf/0.1/homepage> <https://www.facebook.com/ekal.golas> .
+<file:///D:/Github/SemanticWeb/Lab%201/Ekal_FOAFFriends.rdf#me> <http://xmlns.com/foaf/0.1/depiction> <file:///D:/Github/SemanticWeb/Lab%201/EkalGolas.jpg> .
+<file:///D:/Github/SemanticWeb/Lab%201/Ekal_FOAFFriends.rdf#me> <http://xmlns.com/foaf/0.1/phone> <tel:469-353-3252> .
+<file:///D:/Github/SemanticWeb/Lab%201/Ekal_FOAFFriends.rdf#me> <http://xmlns.com/foaf/0.1/workplaceHomepage> <http://amazon.com/> .
+<file:///D:/Github/SemanticWeb/Lab%201/Ekal_FOAFFriends.rdf#me> <http://xmlns.com/foaf/0.1/workInfoHomepage> <http://utdallas.edu/~exg140230/> .
+<file:///D:/Github/SemanticWeb/Lab%201/Ekal_FOAFFriends.rdf#me> <http://xmlns.com/foaf/0.1/schoolHomepage> <http://utdallas.edu/> .
+<file:///D:/Github/SemanticWeb/Lab%201/Ekal_FOAFFriends.rdf#me> <http://xmlns.com/foaf/0.1/knows> _:BX2Db3ab1c2X3A14fb491490eX3AX2D7fff .
+<file:///D:/Github/SemanticWeb/Lab%201/Ekal_FOAFFriends.rdf#me> <http://xmlns.com/foaf/0.1/knows> _:BX2Db3ab1c2X3A14fb491490eX3AX2D7ffe .
+<file:///D:/Github/SemanticWeb/Lab%201/Ekal_FOAFFriends.rdf#me> <http://xmlns.com/foaf/0.1/knows> _:BX2Db3ab1c2X3A14fb491490eX3AX2D7ffd .
+<file:///D:/Github/SemanticWeb/Lab%201/Ekal_FOAFFriends.rdf#me> <http://xmlns.com/foaf/0.1/knows> _:BX2D765a7e3bX3A14fb49dd926X3AX2D7ffe .
+<file:///D:/Github/SemanticWeb/Lab%201/Ekal_FOAFFriends.rdf#me> <http://xmlns.com/foaf/0.1/knows> _:BX2D765a7e3bX3A14fb49dd926X3AX2D7ffd .
+<file:///D:/Github/SemanticWeb/Lab%201/Ekal_FOAFFriends.rdf#me> <http://xmlns.com/foaf/0.1/knows> _:BX2D765a7e3bX3A14fb49dd926X3AX2D7ffc .
+_:BX2Db3ab1c2X3A14fb491490eX3AX2D7fff <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
+_:BX2Db3ab1c2X3A14fb491490eX3AX2D7fff <http://xmlns.com/foaf/0.1/name> "Ekal Golas" .
+_:BX2Db3ab1c2X3A14fb491490eX3AX2D7fff <http://xmlns.com/foaf/0.1/mbox> <mailto:ekalgolas@gmail.com> .
+_:BX2Db3ab1c2X3A14fb491490eX3AX2D7fff <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://www.hackathon.io/ekal-golas> .
+_:BX2Db3ab1c2X3A14fb491490eX3AX2D7ffe <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
+_:BX2Db3ab1c2X3A14fb491490eX3AX2D7ffe <http://xmlns.com/foaf/0.1/name> "Ekal" .
+_:BX2Db3ab1c2X3A14fb491490eX3AX2D7ffe <http://xmlns.com/foaf/0.1/mbox> <mailto:exg140230@utdallas.edu> .
+_:BX2Db3ab1c2X3A14fb491490eX3AX2D7ffe <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://www.hackathon.io/ekal-golas> .
+_:BX2Db3ab1c2X3A14fb491490eX3AX2D7ffd <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
+_:BX2Db3ab1c2X3A14fb491490eX3AX2D7ffd <http://xmlns.com/foaf/0.1/name> "Test" .
+_:BX2Db3ab1c2X3A14fb491490eX3AX2D7ffd <http://xmlns.com/foaf/0.1/mbox> <mailto:testekal@123.abc> .
+_:BX2Db3ab1c2X3A14fb491490eX3AX2D7ffd <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://www.hackathon.io/ekal-golas> .
+<http://utdallas/Fall2015SemanticWeb/Keven> <http://www.w3.org/2001/vcard-rdf/3.0#FN> "Dr. Kevin L. Ates" .
+<http://utdallas/Fall2015SemanticWeb/Keven> <http://www.w3.org/2001/vcard-rdf/3.0#N> _:BX2D9ebe4baX3A14fb49d2130X3AX2D7fff .
+<http://utdallas/Fall2015SemanticWeb/Keven> <http://www.w3.org/2001/vcard-rdf/3.0#N> _:BX2D765a7e3bX3A14fb49dd926X3AX2D7fff .
+<http://utdallas/Fall2015SemanticWeb/Keven> <http://www.w3.org/2001/vcard-rdf/3.0#BDAY> "1901 Jan 01" .
+<http://utdallas/Fall2015SemanticWeb/Keven> <http://www.w3.org/2001/vcard-rdf/3.0#EMAIL> "mailto:atescomp@utdallas.edu" .
+<http://utdallas/Fall2015SemanticWeb/Keven> <http://www.w3.org/2001/vcard-rdf/3.0#TITLE> "Senior Lecturer" .
+_:BX2D9ebe4baX3A14fb49d2130X3AX2D7fff <http://www.w3.org/2001/vcard-rdf/3.0#Prefix> "Dr." .
+_:BX2D9ebe4baX3A14fb49d2130X3AX2D7fff <http://www.w3.org/2001/vcard-rdf/3.0#Given> "Kevin" .
+_:BX2D9ebe4baX3A14fb49d2130X3AX2D7fff <http://www.w3.org/2001/vcard-rdf/3.0#Middle> "L." .
+_:BX2D9ebe4baX3A14fb49d2130X3AX2D7fff <http://www.w3.org/2001/vcard-rdf/3.0#Family> "Ates" .
+_:BX2D765a7e3bX3A14fb49dd926X3AX2D7fff <http://www.w3.org/2001/vcard-rdf/3.0#Prefix> "Dr." .
+_:BX2D765a7e3bX3A14fb49dd926X3AX2D7fff <http://www.w3.org/2001/vcard-rdf/3.0#Given> "Kevin" .
+_:BX2D765a7e3bX3A14fb49dd926X3AX2D7fff <http://www.w3.org/2001/vcard-rdf/3.0#Middle> "L." .
+_:BX2D765a7e3bX3A14fb49dd926X3AX2D7fff <http://www.w3.org/2001/vcard-rdf/3.0#Family> "Ates" .
+_:BX2D765a7e3bX3A14fb49dd926X3AX2D7ffe <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
+_:BX2D765a7e3bX3A14fb49dd926X3AX2D7ffe <http://xmlns.com/foaf/0.1/name> "Ekal Golas" .
+_:BX2D765a7e3bX3A14fb49dd926X3AX2D7ffe <http://xmlns.com/foaf/0.1/mbox> <mailto:ekalgolas@gmail.com> .
+_:BX2D765a7e3bX3A14fb49dd926X3AX2D7ffe <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://www.hackathon.io/ekal-golas> .
+_:BX2D765a7e3bX3A14fb49dd926X3AX2D7ffd <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
+_:BX2D765a7e3bX3A14fb49dd926X3AX2D7ffd <http://xmlns.com/foaf/0.1/name> "Ekal" .
+_:BX2D765a7e3bX3A14fb49dd926X3AX2D7ffd <http://xmlns.com/foaf/0.1/mbox> <mailto:exg140230@utdallas.edu> .
+_:BX2D765a7e3bX3A14fb49dd926X3AX2D7ffd <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://www.hackathon.io/ekal-golas> .
+_:BX2D765a7e3bX3A14fb49dd926X3AX2D7ffc <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
+_:BX2D765a7e3bX3A14fb49dd926X3AX2D7ffc <http://xmlns.com/foaf/0.1/name> "Test" .
+_:BX2D765a7e3bX3A14fb49dd926X3AX2D7ffc <http://xmlns.com/foaf/0.1/mbox> <mailto:testekal@123.abc> .
+_:BX2D765a7e3bX3A14fb49dd926X3AX2D7ffc <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://www.hackathon.io/ekal-golas> .

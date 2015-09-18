@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="windows-1252"?>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:admin="http://webns.net/mvcb/"
+    xmlns:vcard="http://www.w3.org/2001/vcard-rdf/3.0#"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+    xmlns:foaf="http://xmlns.com/foaf/0.1/" > 
+  <rdf:Description rdf:nodeID="A0">
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+    <foaf:name>Test</foaf:name>
+    <foaf:mbox rdf:resource="mailto:testekal@123.abc"/>
+    <rdfs:seeAlso rdf:resource="http://www.hackathon.io/ekal-golas"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A1">
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+    <foaf:name>Ekal</foaf:name>
+    <foaf:mbox rdf:resource="mailto:exg140230@utdallas.edu"/>
+    <rdfs:seeAlso rdf:resource="http://www.hackathon.io/ekal-golas"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A2">
+    <vcard:Prefix>Dr.</vcard:Prefix>
+    <vcard:Given>Kevin</vcard:Given>
+    <vcard:Middle>L.</vcard:Middle>
+    <vcard:Family>Ates</vcard:Family>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A3">
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+    <foaf:name>Ekal Golas</foaf:name>
+    <foaf:mbox rdf:resource="mailto:ekalgolas@gmail.com"/>
+    <rdfs:seeAlso rdf:resource="http://www.hackathon.io/ekal-golas"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A4">
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+    <foaf:name>Ekal Golas</foaf:name>
+    <foaf:mbox rdf:resource="mailto:ekalgolas@gmail.com"/>
+    <rdfs:seeAlso rdf:resource="http://www.hackathon.io/ekal-golas"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A5">
+    <vcard:Prefix>Dr.</vcard:Prefix>
+    <vcard:Given>Kevin</vcard:Given>
+    <vcard:Middle>L.</vcard:Middle>
+    <vcard:Family>Ates</vcard:Family>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A6">
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+    <foaf:name>Test</foaf:name>
+    <foaf:mbox rdf:resource="mailto:testekal@123.abc"/>
+    <rdfs:seeAlso rdf:resource="http://www.hackathon.io/ekal-golas"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A7">
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+    <foaf:name>Ekal</foaf:name>
+    <foaf:mbox rdf:resource="mailto:exg140230@utdallas.edu"/>
+    <rdfs:seeAlso rdf:resource="http://www.hackathon.io/ekal-golas"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://utdallas/Fall2015SemanticWeb/Keven">
+    <vcard:FN>Dr. Kevin L. Ates</vcard:FN>
+    <vcard:N rdf:nodeID="A2"/>
+    <vcard:N rdf:nodeID="A5"/>
+    <vcard:BDAY>1901 Jan 01</vcard:BDAY>
+    <vcard:EMAIL>mailto:atescomp@utdallas.edu</vcard:EMAIL>
+    <vcard:TITLE>Senior Lecturer</vcard:TITLE>
+  </rdf:Description>
+  <rdf:Description rdf:about="file:///D:/Github/SemanticWeb/Lab%201/Ekal_FOAFFriends.rdf#me">
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+    <foaf:name>Ekal Golas</foaf:name>
+    <foaf:title>Mr</foaf:title>
+    <foaf:givenname>Ekal</foaf:givenname>
+    <foaf:family_name>Golas</foaf:family_name>
+    <foaf:nick>Ekal</foaf:nick>
+    <foaf:mbox rdf:resource="mailto:exg140230@utdallas.edu"/>
+    <foaf:homepage rdf:resource="https://www.facebook.com/ekal.golas"/>
+    <foaf:depiction rdf:resource="file:///D:/Github/SemanticWeb/Lab%201/EkalGolas.jpg"/>
+    <foaf:phone rdf:resource="tel:469-353-3252"/>
+    <foaf:workplaceHomepage rdf:resource="http://amazon.com/"/>
+    <foaf:workInfoHomepage rdf:resource="http://utdallas.edu/~exg140230/"/>
+    <foaf:schoolHomepage rdf:resource="http://utdallas.edu/"/>
+    <foaf:knows rdf:nodeID="A4"/>
+    <foaf:knows rdf:nodeID="A1"/>
+    <foaf:knows rdf:nodeID="A0"/>
+    <foaf:knows rdf:nodeID="A3"/>
+    <foaf:knows rdf:nodeID="A7"/>
+    <foaf:knows rdf:nodeID="A6"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="file:///D:/Github/SemanticWeb/Lab%201/Ekal_FOAFFriends.rdf">
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/PersonalProfileDocument"/>
+    <foaf:maker rdf:resource="file:///D:/Github/SemanticWeb/Lab%201/Ekal_FOAFFriends.rdf#me"/>
+    <foaf:primaryTopic rdf:resource="file:///D:/Github/SemanticWeb/Lab%201/Ekal_FOAFFriends.rdf#me"/>
+    <admin:generatorAgent rdf:resource="http://www.ldodds.com/foaf/foaf-a-matic"/>
+    <admin:errorReportsTo rdf:resource="mailto:leigh@ldodds.com"/>
+  </rdf:Description>
+</rdf:RDF>

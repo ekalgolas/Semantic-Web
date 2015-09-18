@@ -1,0 +1,86 @@
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix admin: <http://webns.net/mvcb/> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix foaf:  <http://xmlns.com/foaf/0.1/> .
+
+<file:///D:/Github/SemanticWeb/Lab%201/Ekal_FOAFFriends.rdf>
+        a                     foaf:PersonalProfileDocument ;
+        admin:errorReportsTo  <mailto:leigh@ldodds.com> ;
+        admin:generatorAgent  <http://www.ldodds.com/foaf/foaf-a-matic> ;
+        foaf:maker            <file:///D:/Github/SemanticWeb/Lab%201/Ekal_FOAFFriends.rdf#me> ;
+        foaf:primaryTopic     <file:///D:/Github/SemanticWeb/Lab%201/Ekal_FOAFFriends.rdf#me> .
+
+<file:///D:/Github/SemanticWeb/Lab%201/Ekal_FOAFFriends.rdf#me>
+        a                       foaf:Person ;
+        foaf:depiction          <file:///D:/Github/SemanticWeb/Lab%201/EkalGolas.jpg> ;
+        foaf:family_name        "Golas" ;
+        foaf:givenname          "Ekal" ;
+        foaf:homepage           <https://www.facebook.com/ekal.golas> ;
+        foaf:knows              [ a             foaf:Person ;
+                                  rdfs:seeAlso  <http://www.hackathon.io/ekal-golas> ;
+                                  foaf:mbox     <mailto:ekalgolas@gmail.com> ;
+                                  foaf:name     "Ekal Golas"
+                                ] ;
+        foaf:knows              [ a             foaf:Person ;
+                                  rdfs:seeAlso  <http://www.hackathon.io/ekal-golas> ;
+                                  foaf:mbox     <mailto:exg140230@utdallas.edu> ;
+                                  foaf:name     "Ekal"
+                                ] ;
+        foaf:knows              [ a             foaf:Person ;
+                                  rdfs:seeAlso  <http://www.hackathon.io/ekal-golas> ;
+                                  foaf:mbox     <mailto:testekal@123.abc> ;
+                                  foaf:name     "Test"
+                                ] ;
+        foaf:knows              [ a             foaf:Person ;
+                                  rdfs:seeAlso  <http://www.hackathon.io/ekal-golas> ;
+                                  foaf:mbox     <mailto:ekalgolas@gmail.com> ;
+                                  foaf:name     "Ekal Golas"
+                                ] ;
+        foaf:knows              [ a             foaf:Person ;
+                                  rdfs:seeAlso  <http://www.hackathon.io/ekal-golas> ;
+                                  foaf:mbox     <mailto:exg140230@utdallas.edu> ;
+                                  foaf:name     "Ekal"
+                                ] ;
+        foaf:knows              [ a             foaf:Person ;
+                                  rdfs:seeAlso  <http://www.hackathon.io/ekal-golas> ;
+                                  foaf:mbox     <mailto:testekal@123.abc> ;
+                                  foaf:name     "Test"
+                                ] ;
+        foaf:mbox               <mailto:exg140230@utdallas.edu> ;
+        foaf:name               "Ekal Golas" ;
+        foaf:nick               "Ekal" ;
+        foaf:phone              <tel:469-353-3252> ;
+        foaf:schoolHomepage     <http://utdallas.edu/> ;
+        foaf:title              "Mr" ;
+        foaf:workInfoHomepage   <http://utdallas.edu/~exg140230/> ;
+        foaf:workplaceHomepage  <http://amazon.com/> .
+
+<http://utdallas/Fall2015SemanticWeb/Keven>
+        <http://www.w3.org/2001/vcard-rdf/3.0#BDAY>
+                "1901 Jan 01" ;
+        <http://www.w3.org/2001/vcard-rdf/3.0#EMAIL>
+                "mailto:atescomp@utdallas.edu" ;
+        <http://www.w3.org/2001/vcard-rdf/3.0#FN>
+                "Dr. Kevin L. Ates" ;
+        <http://www.w3.org/2001/vcard-rdf/3.0#N>
+                [ <http://www.w3.org/2001/vcard-rdf/3.0#Family>
+                          "Ates" ;
+                  <http://www.w3.org/2001/vcard-rdf/3.0#Given>
+                          "Kevin" ;
+                  <http://www.w3.org/2001/vcard-rdf/3.0#Middle>
+                          "L." ;
+                  <http://www.w3.org/2001/vcard-rdf/3.0#Prefix>
+                          "Dr."
+                ] ;
+        <http://www.w3.org/2001/vcard-rdf/3.0#N>
+                [ <http://www.w3.org/2001/vcard-rdf/3.0#Family>
+                          "Ates" ;
+                  <http://www.w3.org/2001/vcard-rdf/3.0#Given>
+                          "Kevin" ;
+                  <http://www.w3.org/2001/vcard-rdf/3.0#Middle>
+                          "L." ;
+                  <http://www.w3.org/2001/vcard-rdf/3.0#Prefix>
+                          "Dr."
+                ] ;
+        <http://www.w3.org/2001/vcard-rdf/3.0#TITLE>
+                "Senior Lecturer" .
