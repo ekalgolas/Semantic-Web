@@ -1,0 +1,54 @@
+<http://utdallas/semclass#Person-StanleyKubrick>
+        a       <http://utdallas/semclass#Person-> ;
+        <http://www.w3.org/2001/vcard-rdf/3.0#FN>
+                "Stanley Kubrick" ;
+        <http://www.w3.org/2001/vcard-rdf/3.0#N>
+                [ <http://www.w3.org/2001/vcard-rdf/3.0#Family>
+                          "Kubrick" ;
+                  <http://www.w3.org/2001/vcard-rdf/3.0#Given>
+                          "Stanley"
+                ] ;
+        <http://www.w3.org/2001/vcard-rdf/3.0#TITLE>
+                "director" .
+
+<http://utdallas/semclass#Person-PeterGeorge>
+        a       <http://utdallas/semclass#Person-> ;
+        <http://www.w3.org/2001/vcard-rdf/3.0#FN>
+                "Peter George" ;
+        <http://www.w3.org/2001/vcard-rdf/3.0#N>
+                [ <http://www.w3.org/2001/vcard-rdf/3.0#Family>
+                          "George" ;
+                  <http://www.w3.org/2001/vcard-rdf/3.0#Given>
+                          "Peter"
+                ] ;
+        <http://www.w3.org/2001/vcard-rdf/3.0#TITLE>
+                "author" .
+
+<http://utdallas/semclass#Book-redAlert>
+        a       <http://utdallas/semclass#Book-> ;
+        <http://purl.org/dc/elements/1.1/creator>
+                <http://utdallas/semclass#Person-PeterGeorge> ;
+        <http://purl.org/dc/elements/1.1/title>
+                "Red Alert" .
+
+<http://utdallas/semclass#Movie-AClockworkOrange>
+        a       <http://utdallas/semclass#Movie-> ;
+        <http://purl.org/dc/elements/1.1/date>
+                "1971" ;
+        <http://purl.org/dc/elements/1.1/title>
+                "A Clockwork Orange" ;
+        <http://utdallas/semclass#Movie-AdaptationOf>
+                <http://utdallas/semclass#Book-redAlert> ;
+        <http://utdallas/semclass#Movie-director>
+                <http://utdallas/semclass#Person-StanleyKubrick> .
+
+<http://utdallas/semclass#Movie-DrStrangelove>
+        a       <http://utdallas/semclass#Movie-> ;
+        <http://purl.org/dc/elements/1.1/date>
+                "1964" ;
+        <http://purl.org/dc/elements/1.1/title>
+                "Dr. Strangelove" ;
+        <http://utdallas/semclass#Movie-AdaptationOf>
+                <http://utdallas/semclass#Book-redAlert> ;
+        <http://utdallas/semclass#Movie-director>
+                <http://utdallas/semclass#Person-StanleyKubrick> .

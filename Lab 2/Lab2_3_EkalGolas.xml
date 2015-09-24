@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="windows-1252"?>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/"
+    xmlns:vcard="http://www.w3.org/2001/vcard-rdf/3.0#"
+    xmlns:j.0="http://utdallas/semclass#" > 
+  <rdf:Description rdf:about="http://utdallas/semclass#Book-redAlert">
+    <rdf:type rdf:resource="http://utdallas/semclass#Book-"/>
+    <dc:creator rdf:resource="http://utdallas/semclass#Person-PeterGeorge"/>
+    <dc:title>Red Alert</dc:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://utdallas/semclass#Person-StanleyKubrick">
+    <rdf:type rdf:resource="http://utdallas/semclass#Person-"/>
+    <vcard:FN>Stanley Kubrick</vcard:FN>
+    <vcard:N rdf:nodeID="A0"/>
+    <vcard:TITLE>director</vcard:TITLE>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://utdallas/semclass#Person-PeterGeorge">
+    <rdf:type rdf:resource="http://utdallas/semclass#Person-"/>
+    <vcard:FN>Peter George</vcard:FN>
+    <vcard:N rdf:nodeID="A1"/>
+    <vcard:TITLE>author</vcard:TITLE>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://utdallas/semclass#Movie-AClockworkOrange">
+    <rdf:type rdf:resource="http://utdallas/semclass#Movie-"/>
+    <dc:title>A Clockwork Orange</dc:title>
+    <dc:date>1971</dc:date>
+    <j.0:Movie-director rdf:resource="http://utdallas/semclass#Person-StanleyKubrick"/>
+    <j.0:Movie-AdaptationOf rdf:resource="http://utdallas/semclass#Book-redAlert"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://utdallas/semclass#Movie-DrStrangelove">
+    <rdf:type rdf:resource="http://utdallas/semclass#Movie-"/>
+    <dc:title>Dr. Strangelove</dc:title>
+    <dc:date>1964</dc:date>
+    <j.0:Movie-director rdf:resource="http://utdallas/semclass#Person-StanleyKubrick"/>
+    <j.0:Movie-AdaptationOf rdf:resource="http://utdallas/semclass#Book-redAlert"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A1">
+    <vcard:Given>Peter</vcard:Given>
+    <vcard:Family>George</vcard:Family>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A0">
+    <vcard:Given>Stanley</vcard:Given>
+    <vcard:Family>Kubrick</vcard:Family>
+  </rdf:Description>
+</rdf:RDF>
